@@ -4,7 +4,7 @@ This repository contains [online interactive visualizations of the CGM](https://
 
 When you first start the visualization you can select a simulation and redshift you would like to view. The simulations available were created as part of the [FIRE project](https://fire.northwestern.edu). Two redshifts are available per simulation: `lowz` and `highz` corresponding to z=0.25 and z=2 respectively.
 
-The loaded visualization will display the full pathlines, over the course of the entire simulation, for 400 particles. Each particle was in the CGM of the specified simulation at the specified redshift. Each particle is colored according to how it arrived in the CGM (i.e. its origin), and we display the pathlines of 100 particles per origin, of which there are four:
+The loaded visualization will display the full pathlines, over the course of the entire simulation, for 400 particles. Each particle was in the CGM of the specified simulation at the specified redshift. Each particle is colored according to how it arrived in the CGM (i.e. its origin). These visualizations are the 3D equivalent of Figures 4-8 in Hafen et al. (2018). We display the pathlines of 100 particles per origin, of which there are four:
 
 1. IGM Accretion (blue) - material that has either never been inside a galaxy or inside a galaxy only a short time.
 2. Wind (green) - material that was ejected from the central galaxy.
