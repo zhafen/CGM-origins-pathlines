@@ -72,11 +72,11 @@ function update(time){
 	
 	//console.log((seconds-params.currentTime))
 	// if we spent more than 1.5 seconds drawing the last frame, send the app to sleep
-	if ( (seconds-params.currentTime) > 1.5){
-		console.log("Putting the app to sleep, taking too long!",(seconds-params.currentTime))
-		params.pauseAnimation=true;
-		showSleep();
-	}
+	// if ( (seconds-params.currentTime) > 1.5){
+	// 	console.log("Putting the app to sleep, taking too long!",(seconds-params.currentTime))
+	// 	params.pauseAnimation=true;
+	// 	showSleep();
+	// }
 
 	for (var i=0; i<params.partsKeys.length; i++){
 		var p = params.partsKeys[i];
