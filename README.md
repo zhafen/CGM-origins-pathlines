@@ -1,6 +1,6 @@
 # The Life of CGM Gas Visualized
 
-This repository contains [online interactive visualizations of the CGM](https://zhafen.github.io/CGM-origins-pathlines), using data from Hafen et al. (2018). These visualizations were developed using [Firefly](https://github.com/ageller/Firefly). [A complimentary visualization is available here.](https://zhafen.github.io/CGM-origins)
+This repository contains [online interactive visualizations of the CGM](https://zhafen.github.io/CGM-origins-pathlines), using data from [Hafen et al. (2018)](https://arxiv.org/abs/1811.11753). These visualizations were developed using [Firefly](https://github.com/ageller/Firefly). [A complimentary visualization is available here.](https://zhafen.github.io/CGM-origins)
 
 When you first start the visualization you can select a simulation and redshift you would like to view. The simulations available were created as part of the [FIRE project](https://fire.northwestern.edu). Two redshifts are available per simulation: `lowz` and `highz` corresponding to z=0.25 and z=2 respectively.
 
